@@ -1,0 +1,23 @@
+{
+    "name": "whoops/soap",
+    "version": "1.0.0",
+    "description": "Soap handler for Whoops",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Markus Staab",
+            "email": "maggus.staab@googlemail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Whoops\\Handler\\": "src/"
+        }
+    },
+    "require-dev": {
+        "filp/whoops": "^2.0-dev",
+        "phpunit/phpunit": "^4.8"
+    }
+}
